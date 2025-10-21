@@ -2,84 +2,99 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
 
-// Default theme colors
-$theme-colors: (
-  "coolblack": #090a0b,
-  "spacegrey": #353535,
-  "snowwhite": #ffffff,
-);
 
-// Default brand colors
-$brand-colors: (
-  "orangered": #ff5100,
-  "greatgold": #f2cb05,
-);
 
-// Global typography settings
-html, body {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  line-height: 2; // double spacing
-  color: map-get($theme-colors, "coolblack");
-  background-color: map-get($theme-colors, "snowwhite");
-  margin: 0;
-  padding: 0;
-}
 
-// Apply typography globally to all elements
-* {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  line-height: 2;
-  box-sizing: border-box;
-}
 
-// Example for headings
-h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  line-height: 2;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-}
 
-// Example for paragraphs and lists
-p, ul, ol {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  line-height: 2;
-  margin-bottom: 1em;
-}
 
-// Example for links
-a {
-  color: map-get($brand-colors, "orangered");
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-}
 
-// Example for buttons
-button {
-  font-family: Arial, sans-serif;
-  font-size: 12px;
-  line-height: 2;
-  background-color: map-get($brand-colors, "greatgold");
-  border: none;
-  border-radius: 6px;
-  padding: 0.5em 1em;
-  cursor: pointer;
 
-  &:hover {
-    background-color: map-get($brand-colors, "orangered");
-    color: map-get($theme-colors, "snowwhite");
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
